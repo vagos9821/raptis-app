@@ -4,7 +4,6 @@ import { useState } from "react";
 import React from "react";
 
 const MenuButton = () => {
-  const menu = document.getElementById("menu");
   const [isOpen, setIsOpen] = useState(false);
 
   const handleMenu = (event) => {
