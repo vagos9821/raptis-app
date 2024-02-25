@@ -37,19 +37,19 @@ const TrendingSlider = () => {
 
   const slideLeft = () => {
     let slider = document.getElementById("sliderClients");
-    slider.scrollLeft = slider.scrollLeft - 235;
+    slider.scrollLeft = slider.scrollLeft - 336;
   };
 
   const slideRight = () => {
     let slider = document.getElementById("sliderClients");
-    slider.scrollLeft = slider.scrollLeft + 235;
+    slider.scrollLeft = slider.scrollLeft + 336;
   };
   return (
     <>
-      <div className="trending">
+      <div className="trending flex justify-center">
         <div className="container sm:w-[1200px] w-[300px] flex flex-col justify-center">
           <div
-            className="row-container flex gap-9 overflow-hidden whitespace-nowrap scroll-smooth relative drop-shadow-2xl"
+            className="row-container flex gap-9 overflow-hidden whitespace-nowrap scroll-smooth relative drop-shadow-2xl  bg-secondary border-y-[2px] border-primary rounded-xl"
             id="sliderClients"
           >
             {filteredItems.map((item) => (
@@ -76,7 +76,7 @@ const TrendingSlider = () => {
             <button
               title="scroll left"
               onClick={slideLeft}
-              className="hover:text-accent text-primary"
+              className="hover:text-accent text-primary  transition-all ease-in"
             >
               <svg
                 width="64"

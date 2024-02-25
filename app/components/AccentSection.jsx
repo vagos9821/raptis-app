@@ -3,7 +3,7 @@ import React from "react";
 const AccentSection = () => {
   return (
     <div className="bg-accent w-full h-[200px] flex items-center justify-around text-center">
-      <div className="flex flex-col items-center justify-center text-xl">
+      <div className="flex flex-col items-center justify-center text-l lg:text-xl">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="32px"
@@ -21,7 +21,7 @@ const AccentSection = () => {
         </svg>
         <h5>Διάκριση στην εξυπηρέτηση πελατών</h5>
       </div>
-      <div className="flex flex-col items-center justify-center text-xl">
+      <div className="flex flex-col items-center justify-center text-l lg:text-xl">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="32px"
@@ -32,7 +32,7 @@ const AccentSection = () => {
         </svg>
         <h5>Υψηλή ποιότητα με εκλεκτές πρωτες ύλες</h5>
       </div>
-      <div className="flex flex-col items-center justify-center text-xl">
+      <div className="flex flex-col items-center justify-center text-l lg:text-xl">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="32px"

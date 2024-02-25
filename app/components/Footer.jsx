@@ -3,8 +3,10 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="w-full bg-primary flex justify-around items-center">
-      <div className="flex justify-center items-center gap-20">
-        <p className="text-background">All rights reserved.</p>
+      <div className="flex justify-around w-[50%] items-center">
+        <p className="text-background lg:text-lg text-sm">
+          All rights reserved.
+        </p>
         <div className="md:col-span-3 col-span-1">
           <svg
             className="w-[80px] h-[80px]"
@@ -25,7 +27,7 @@ const Footer = () => {
           </svg>
         </div>
       </div>
-      <div className="text-background fill-accent text-l">
+      <div className="text-background fill-accent text-l pt-5 ">
         <h5 className="text-xl underline">Επικοινωνία</h5>
         <ul>
           <li className="flex">
@@ -78,9 +80,11 @@ const Footer = () => {
             </svg>
             info@papaki.com
           </li>
+          <p className="text-sm pt-10">
+            Created and Designed by Evangelos Sigalas
+          </p>
         </ul>
       </div>
-      <p className="">Build & Design by Evangelos Sigalas</p>
     </div>
   );
 };

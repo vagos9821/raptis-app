@@ -4,7 +4,7 @@ const MenuButton = () => {
   return (
     <div className="">
       <svg
-        className="hover:cursor-pointer fill-background hover:fill-accent"
+        className="hover:cursor-pointer fill-background hover:fill-accent focus:fill-accent transition-all ease-in"
         width="50"
         height="50"
         viewBox="0 0 24 24"

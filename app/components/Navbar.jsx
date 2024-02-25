@@ -5,12 +5,12 @@ const Navbar = () => {
   return (
     <div
       className="bg-primary m-0 px-[20px] fixed
-    grid grid-flow-col grid-cols-2 md:grid-cols-12 items-center 
-    w-full md:h-[100px] md:px-[120px] h-[80px] z-20"
+    flex justify-around items-center 
+    w-full lg:px-[120px] h-[60px] z-20"
     >
-      <div className="md:col-span-3 col-span-1">
+      <div className="">
         <svg
-          className="w-[50px] h-[50px] sm:w-[80px] sm:h-[80px]"
+          className="w-[50px] h-[50px]"
           version="1.0"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 201.000000 200.000000"
@@ -27,12 +27,12 @@ const Navbar = () => {
           </g>{" "}
         </svg>
       </div>
-      <div className="opacity-0 md:opacity-100 flex col-span-0 md:col-span-6 items-center justify-center lg:gap-[100px] gap-9 text-background font-semibold tracking-widest">
+      <div className="lg:flex items-center justify-around text-background font-semibold tracking-widest lg:w-full hidden w-0">
         <a
           href="http://"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-accent hover:underline"
+          className="hover:text-accent hover:underline focus:text-accent focus:underline transition-all ease-in"
         >
           Αρχική
         </a>
@@ -40,7 +40,7 @@ const Navbar = () => {
           href="http://"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-accent hover:underline"
+          className="hover:text-accent hover:underline focus:text-accent focus:underline transition-all ease-in"
         >
           Για εμάς
         </a>
@@ -48,13 +48,13 @@ const Navbar = () => {
           href="http://"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-accent hover:underline"
+          className="hover:text-accent hover:underline focus:text-accent focus:underline transition-all ease-in"
         >
           Επικοινωνία
         </a>
       </div>
       <div className="col-span-1 md:col-span-3 ml-44">
-        <MenuButton className="hover:fill-accent" />
+        <MenuButton className=" " />
       </div>
     </div>
   );
