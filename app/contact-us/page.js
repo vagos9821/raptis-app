@@ -126,7 +126,7 @@ export default function Contact() {
         >
           <label className="text-">Όνοματεπώνυμο</label>
           <input
-            className="w-[50%] h-10 bg-primary resize-none outline-none text-background p-5"
+            className="w-full h-10 bg-primary resize-none outline-none text-background p-5"
             type="text"
             name="name"
             placeholder="Το όνοματεπώνυμο σας"
@@ -134,7 +134,7 @@ export default function Contact() {
           />
           <label>E-mail</label>
           <input
-            className="w-[50%] h-10 bg-primary resize-none outline-none text-background p-5"
+            className="w-full h-10 bg-primary resize-none outline-none text-background p-5"
             type="email"
             name="email"
             placeholder="Το e-mail σας"
@@ -142,7 +142,7 @@ export default function Contact() {
           />
           <label>Μήνυμα</label>
           <textarea
-            className="w-[50%] h-40 bg-primary resize-none outline-none text-background p-5"
+            className="w-full h-40 bg-primary resize-none outline-none text-background p-5"
             name="message"
             placeholder="Γράψτε μια ερώτηση ή πείτε ένα γεια"
             required
