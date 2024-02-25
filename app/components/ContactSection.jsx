@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const ContactSection = () => {
   return (
@@ -9,7 +10,7 @@ const ContactSection = () => {
         </h2>
         <p className="text-l">Θα χαρούμε να σας εξυπηρετήσουμε!</p>
         <button className="bg-accent w-[120px] h-[40px] rounded-xl text-primary hover:text-background hover:underline">
-          Επικοινωνία
+          <Link href="/contact-us">Επικοινωνία</Link>
         </button>
       </div>
       <div className="w-full flex justify-center pt-9">

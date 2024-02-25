@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -8,10 +9,10 @@ const HeroSection = () => {
       </h1>
       <div className="flex gap-10">
         <button className="bg-accent w-[120px] h-[40px] rounded-xl text-primary hover:text-background hover:underline">
-          Προϊόντα
+          <Link href="/">Προϊόντα</Link>
         </button>
         <button className="bg-accent w-[120px] h-[40px] rounded-xl text-primary hover:text-background hover:underline">
-          Για εμάς
+          <Link href="/about-us">Για εμάς</Link>
         </button>
       </div>
     </div>
