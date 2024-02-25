@@ -146,7 +146,7 @@ c-157 2 -206 -1 -213 -10 -13 -21 -10 -186 4 -194 7 -4 30 -7 51 -5 51 3 99
           </g>
         </svg>
       </div>
-      <div className=" lg:px-[300px] px-5 lg:text-xl text-l py-[100px]">
+      <div className=" lg:px-[300px] px-5 lg:text-xl text-l text-text py-[100px]">
         <p>
           Καλωσορίσατε στην Raptis Packing, την πρωτοπόρα εταιρεία στον χώρο της
           κατασκευής συσκευασιών και σακούλων από το 1991! Με περισσότερα από
