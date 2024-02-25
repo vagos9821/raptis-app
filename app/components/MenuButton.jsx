@@ -31,24 +31,28 @@ const MenuButton = () => {
         </svg>
         <ul className="pr-10 lg:pr-20 pl-5 py-10 bg-primary fixed right-0 flex flex-col gap-9 text-background items-start">
           <Link
+            onClick={handleMenu}
             href="/"
             className="hover:text-accent hover:underline focus:text-accent focus:underline transition-all ease-in cursor-pointer"
           >
             Αρχική
           </Link>
           <Link
+            onClick={handleMenu}
             href="/"
             className="hover:text-accent hover:underline focus:text-accent focus:underline transition-all ease-in cursor-pointer"
           >
             Προϊόντα
           </Link>
           <Link
+            onClick={handleMenu}
             href="/about-us"
             className="hover:text-accent hover:underline focus:text-accent focus:underline transition-all ease-in cursor-pointer"
           >
             Για εμάς
           </Link>
           <Link
+            onClick={handleMenu}
             href="/"
             className="hover:text-accent hover:underline focus:text-accent focus:underline transition-all ease-in"
           >

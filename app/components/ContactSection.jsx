@@ -14,7 +14,7 @@ const ContactSection = () => {
       </div>
       <div className="w-full flex justify-center pt-9">
         <img
-          src="/customBag.png"
+          src="/CustomBag.png"
           alt="Custom Bag"
           className="w-auto h-[400px] object-cover"
         />

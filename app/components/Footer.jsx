@@ -81,7 +81,9 @@ const Footer = () => {
             info@papaki.com
           </li>
           <p className="text-sm pt-10">
-            Created and Designed by Evangelos Sigalas
+            Created and Designed by:
+            <br />
+            Evangelos Sigalas
           </p>
         </ul>
       </div>
