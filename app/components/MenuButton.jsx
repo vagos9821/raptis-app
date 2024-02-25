@@ -53,7 +53,7 @@ const MenuButton = () => {
           </Link>
           <Link
             onClick={handleMenu}
-            href="/"
+            href="/contact-us"
             className="hover:text-accent hover:underline focus:text-accent focus:underline transition-all ease-in"
           >
             Επικοινωνία

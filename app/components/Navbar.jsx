@@ -13,7 +13,7 @@ const Navbar = () => {
         <svg
           className="w-[50px] h-[50px]"
           version="1.0"
-          xmlns="http://www.w3.org/2000/svg"
+          xmlns="/www.w3.org/2000/svg"
           viewBox="0 0 201.000000 200.000000"
           preserveAspectRatio="xMidYMid meet"
         >
@@ -46,7 +46,7 @@ const Navbar = () => {
           Για εμάς
         </Link>
         <Link
-          href="http://"
+          href="/contact-us"
           target=""
           rel="noopener noreferrer"
           className="hover:text-accent hover:underline focus:text-accent focus:underline transition-all ease-in"
