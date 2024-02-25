@@ -30,7 +30,7 @@ const Footer = () => {
       <div className="text-background fill-accent text-l pt-5 ">
         <h5 className="text-xl underline">Επικοινωνία</h5>
         <ul>
-          <li className="flex">
+          <li className="flex lg:text-lg text-sm">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32px"
@@ -41,7 +41,7 @@ const Footer = () => {
             </svg>
             Αλιμος
           </li>
-          <li className="flex">
+          <li className="flex lg:text-lg text-sm">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32px"
@@ -62,7 +62,7 @@ const Footer = () => {
             </svg>
             +30 210-123-1231
           </li>
-          <li className="flex">
+          <li className="flex lg:text-lg text-sm">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32px"
