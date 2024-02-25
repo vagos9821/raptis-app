@@ -1,5 +1,6 @@
 import React from "react";
 import MenuButton from "./MenuButton";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -28,30 +29,30 @@ const Navbar = () => {
         </svg>
       </div>
       <div className="lg:flex items-center justify-around text-background font-semibold tracking-widest lg:w-full hidden w-0">
-        <a
-          href="http://"
-          target="_blank"
+        <Link
+          href="/"
+          target=""
           rel="noopener noreferrer"
           className="hover:text-accent hover:underline focus:text-accent focus:underline transition-all ease-in"
         >
           Αρχική
-        </a>
-        <a
-          href="http://"
-          target="_blank"
+        </Link>
+        <Link
+          href="/about-us"
+          target=""
           rel="noopener noreferrer"
           className="hover:text-accent hover:underline focus:text-accent focus:underline transition-all ease-in"
         >
           Για εμάς
-        </a>
-        <a
+        </Link>
+        <Link
           href="http://"
-          target="_blank"
+          target=""
           rel="noopener noreferrer"
           className="hover:text-accent hover:underline focus:text-accent focus:underline transition-all ease-in"
         >
           Επικοινωνία
-        </a>
+        </Link>
       </div>
       <div className="col-span-1 md:col-span-3 ml-44">
         <MenuButton className=" " />
