@@ -137,7 +137,6 @@ export default function Contact() {
             className="w-[50%] h-10 bg-primary resize-none outline-none text-background p-5"
             type="email"
             name="email"
-            pattern=".+@example\.com"
             placeholder="Το e-mail σας"
             required
           />
